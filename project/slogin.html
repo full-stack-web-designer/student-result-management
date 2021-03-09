@@ -1,0 +1,84 @@
+<html>
+<head><title>Login Form</title>
+<link rel="stylesheet" href="css/animate.css">
+<style>
+.form-div{
+
+width:250px;
+text-align:center;
+margin:150px auto;
+background-color:rgba(200,255,120,.4);
+border-radius:15px;
+box-shadow:0 0 20px red;
+}
+
+body{
+background-image:url('images/back.jpg');
+background-repeat:no-repeat;
+background-size:100%;
+}
+
+h2{
+
+color:white;
+}
+
+input[type='text'],input[type='password']{
+margin:10px;
+text-align:center;
+background:transparent;
+border:none;
+border-bottom:2px solid red;
+outline:none;
+color:purple;
+
+}
+
+::placeholder{
+color:blue;
+}
+
+input[type='text']:focus,input[type='password']:focus{
+
+border-bottom:2px solid green;
+
+}
+
+input[type='submit']{
+
+border:1px solid pink;
+background-color:maroon;
+color:white;
+border-radius:10px;
+padding:2px 25px 2px 25px;
+margin-bottom:10px;
+box-shadow:0 0 10px blue;
+}
+
+input[type='submit']:hover{
+background-color:green;
+
+}
+</style>
+
+
+</head>
+
+
+<body>
+
+<div class="form-div animated flip">
+<form>
+<h2>Login Form</h2>
+<input type="text" placeholder="USERNAME">
+<br>
+<input type="password" placeholder="PASSWORD">
+<br>
+<input type="submit" value="Login">
+</form>
+</div>
+
+</body>
+
+</html>
+
